@@ -34,11 +34,13 @@ namespace ConsoleApp1
             //    Console.WriteLine(l*d);
             //}
 
-            while (true)
-            {
-                Console.WriteLine("1");
-                
-            }
+            //while (true)
+            //{
+            //    Console.WriteLine("1");
+
+            //}
+            int[] array = new int[5];
+
         }
     }
 }
