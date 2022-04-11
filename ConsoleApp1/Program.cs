@@ -7,14 +7,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             // Задание 1
-            int a = 1;
+            int a = 3;
             // Задание 2
             double b = 2;
             // Задание 3
             var c = 32;
-            Console.Write(c);
-            Console.Write(b);
-            Console.Write(c);
+            Console.Write(a*a);
+            
         }
     }
 }
