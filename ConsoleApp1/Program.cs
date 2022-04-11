@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            // Задание 1
             int a = 1;
             double b = 2;
             var c = 32;
