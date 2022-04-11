@@ -8,7 +8,9 @@ namespace ConsoleApp1
         {
             // Задание 1
             int a = 1;
+            // Задание 2
             double b = 2;
+            // Задание 3
             var c = 32;
 
         }
