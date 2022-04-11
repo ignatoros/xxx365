@@ -17,13 +17,21 @@ namespace ConsoleApp1
             int d = Convert.ToInt32(Console.ReadLine());
             //int w = Convert.ToInt32(Console.ReadLine());
             // Console.WriteLine(a*d*w);
-            if (l>d)
+            //if (l>d)
+            //{
+            //    Console.WriteLine(l);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(d);
+            //}
+            if (l % 2 == 0 & d%2 == 0)
             {
-                Console.WriteLine(l);
+                Console.WriteLine(l+d);
             }
             else
             {
-                Console.WriteLine(d);
+                Console.WriteLine(l*d);
             }
         }
     }
