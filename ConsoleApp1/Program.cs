@@ -39,16 +39,26 @@ namespace ConsoleApp1
             //    Console.WriteLine("1");
 
             //}
-            int[] array = new int[5];
-            for (int i = 0; i < array.Length; i++)
-            {
-                array[i] = int.Parse (Console.ReadLine());    
-            }
-            for (int i = 0; i < array.Length; i++)
-            {
-                    Console.Write(array[i]); 
-            }
             
+            //{
+            //    array[i] = int.Parse (Console.ReadLine());    
+            //}
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //        Console.Write(array[i]); 
+            //}
+            int[] array = new int[5];
+            
+            Random h = new Random();
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = h.Next();
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+
         }
     }
 }
