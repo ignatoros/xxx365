@@ -12,8 +12,11 @@ namespace ConsoleApp1
             double b = 4;
             // Задание 3
             var c = 32;
-            Console.WriteLine(12%4);
-            
+            // Console.WriteLine(12%4);
+            int l = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Console.ReadLine());
+            int w = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a*d*w);
         }
     }
 }
