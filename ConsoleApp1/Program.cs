@@ -12,7 +12,7 @@ namespace ConsoleApp1
             double b = 2;
             // Задание 3
             var c = 32;
-
+            Console.Write();
         }
     }
 }
